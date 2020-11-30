@@ -18,27 +18,27 @@ module.exports = {
   },
 
   currencies: [
-    "BTCUSD", "ETHUSD", "EOSUSD", "LTCUSD", // USD Comparative (use USD even for USDT)
+    "BTCUSD", "ETHUSD", "EOSUSD", "LTCUSD", "BNBUSD", "XTZUSD", "MATICUSD", "XRPUSD", "ADAUSD", // USD Comparative (use USD even for USDT)
     "ETHBTC", "EOSBTC", "LTCBTC",  // BTC Comparative
   ],
   
   trade: {
     alerts: true,
     min_worth: {  // Used while migrating alert limits to the database
-      default: 70000, // Default value for when specific value is not specified below
-      BTC: 100000,
-      LTC: 45000 ,
-      ETH: 65000,
-      EOS: 60000
+      default: 700, // Default value for when specific value is not specified below
+      BTC: 1000,
+      LTC: 450 ,
+      ETH: 650,
+      EOS: 600
     }
   },
   
   order: {
     alerts: true,
     min_worth: {  // Used while migrating alert limits to the database
-      default: 700000, // Default value for when specific value is not specified below
-      BTC: 1000000,
-      LTC: 500000
+      default: 7000, // Default value for when specific value is not specified below
+      BTC: 1000,
+      LTC: 5000
     }
   }
 }
