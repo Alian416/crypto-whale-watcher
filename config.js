@@ -18,7 +18,7 @@ module.exports = {
   },
 
   currencies: [
-    "BTCUSDT", "ETHUSDT", "EOSUSDT", "LTCUSDT", "BNBUSDT", "XTZUSDT", "MATICUSDT", "XRPUSDT", "ADAUSDT", // USD Comparative (use USD even for USDT)
+    "BTCUSD", "ETHUSD", "EOSUSD", "LTCUSD", "BNBUSD", "XTZUSD", "MATICUSD", "XRPUSD", "ADAUSD", // USD Comparative (use USD even for USDT)
     "ETHBTC", "EOSBTC", "LTCBTC",  // BTC Comparative
   ],
   
