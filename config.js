@@ -13,12 +13,12 @@ module.exports = {
    */
   exchanges: {
     "binance": true, 
-    "bitfinex": true, 
-    "coinbase": true
+    "bitfinex": false, 
+    "coinbase": false
   },
 
   currencies: [
-    "BTCUSD", "ETHUSD", "EOSUSD", "LTCUSD", "BNBUSD", "XTZUSD", "MATICUSD", "XRPUSD", "ADAUSD", // USD Comparative (use USD even for USDT)
+    "BTCUSDT", "ETHUSDT", "EOSUSDT", "LTCUSDT", "BNBUSDT", "XTZUSDT", "MATICUSDT", "XRPUSDT", "ADAUSDT", // USD Comparative (use USD even for USDT)
     "ETHBTC", "EOSBTC", "LTCBTC",  // BTC Comparative
   ],
   
